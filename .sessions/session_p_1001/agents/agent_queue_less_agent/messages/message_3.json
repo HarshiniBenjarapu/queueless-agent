@@ -1,0 +1,33 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "reasoningContent": {
+          "reasoningText": {
+            "text": "User: \"Hi, I'm patient P-1001. Look up my appointment details.\" We returned patient details. Should confirm or provide additional info. But user might want appointment details; we have status scheduled but not date/time. We can ask for appointment date/time? The tool get_patient_details gives general details. The user didn't specify they want appointment date/time. We should respond with the details we have. Maybe ask if they'd like to reschedule or cancel. So respond empathetically."
+          }
+        }
+      },
+      {
+        "text": "Hello, Anil! I’ve pulled up your information:\n\n- **Name:** Anil Kumar  \n- **Phone:** +91‑987 654 3210  \n- **Email:** anil.k@email.com  \n- **Preferred visit time:** Morning  \n- **Current status:** Appointment scheduled  \n\nIf you’d like to see the exact date & time of your upcoming visit, reschedule, cancel, or need anything else, just let me know and I’ll take care of it right away!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 417,
+        "outputTokens": 211,
+        "totalTokens": 628
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 762
+      }
+    },
+    "tracking_id": "132b42fe-c552-46b4-97ef-18b5908049a1"
+  },
+  "message_id": 3,
+  "redact_message": null,
+  "created_at": "2026-09-11T12:48:14.452537+00:00",
+  "updated_at": "2026-09-11T12:48:14.452628+00:00"
+}

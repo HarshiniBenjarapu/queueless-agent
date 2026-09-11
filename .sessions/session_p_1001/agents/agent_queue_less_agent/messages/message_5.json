@@ -1,0 +1,33 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "reasoningContent": {
+          "reasoningText": {
+            "text": "We should respond empathetically. Provide name and preference."
+          }
+        }
+      },
+      {
+        "text": "You’re **Anil Kumar**, and you prefer to be seen in the **morning**. If you need anything else—like rescheduling or a reminder—just let me know!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 540,
+        "outputTokens": 61,
+        "totalTokens": 601
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 3446
+      }
+    },
+    "tracking_id": "6b84191a-6643-4c36-a527-b00429bca0a7"
+  },
+  "message_id": 5,
+  "redact_message": null,
+  "created_at": "2026-09-11T12:49:04.663214+00:00",
+  "updated_at": "2026-09-11T12:49:04.663379+00:00"
+}

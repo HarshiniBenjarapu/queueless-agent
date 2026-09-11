@@ -1,0 +1,33 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "reasoningContent": {
+          "reasoningText": {
+            "text": "User repeats question: \"What was my name and preferred appointment time again?\" We have that. We should respond with name and time."
+          }
+        }
+      },
+      {
+        "text": "You’re **Anil Kumar**, and you prefer to be seen in the **morning**. Let me know if you need anything else—such as the exact appointment date or a reminder!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 694,
+        "outputTokens": 78,
+        "totalTokens": 772
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2863
+      }
+    },
+    "tracking_id": "e655b039-26e7-4d3a-9ba8-64411e063035"
+  },
+  "message_id": 9,
+  "redact_message": null,
+  "created_at": "2026-09-11T13:01:04.133363+00:00",
+  "updated_at": "2026-09-11T13:01:04.133396+00:00"
+}

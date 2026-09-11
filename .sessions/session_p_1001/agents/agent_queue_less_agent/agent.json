@@ -1,0 +1,19 @@
+{
+  "agent_id": "queue_less_agent",
+  "state": {},
+  "conversation_manager_state": {
+    "__name__": "SlidingWindowConversationManager",
+    "removed_message_count": 0,
+    "model_call_count": 0
+  },
+  "_internal_state": {
+    "interrupt_state": {
+      "interrupts": {},
+      "context": {},
+      "activated": false
+    },
+    "model_state": {}
+  },
+  "created_at": "2026-09-11T12:47:46.229908+00:00",
+  "updated_at": "2026-09-11T13:01:01.157524+00:00"
+}

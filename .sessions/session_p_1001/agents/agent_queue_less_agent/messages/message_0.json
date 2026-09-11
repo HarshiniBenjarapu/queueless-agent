@@ -1,0 +1,15 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "Hi, I'm patient P-1001\\. Look up my appointment details."
+      }
+    ],
+    "tracking_id": "99abb0a3-7e9e-497b-a142-559d2ef9880a"
+  },
+  "message_id": 0,
+  "redact_message": null,
+  "created_at": "2026-09-11T12:48:10.045925+00:00",
+  "updated_at": "2026-09-11T12:48:10.045952+00:00"
+}
