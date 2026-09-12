@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m sorry I can’t pull the exact slot without a bit more detail.  \nYour account (P‑1001) is set up for a **morning** visit and is currently “scheduled.”  \nTo give you the exact date, time, and doctor, could you let me know:\n\n- **The name of the doctor** you’re booked with, *or*  \n- **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll fetch the full appointment details right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 1740,
+        "outputTokens": 393,
+        "totalTokens": 2133
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 3197
+      }
+    },
+    "tracking_id": "31e386ee-bc70-43c6-a79d-94e8c0baada8"
+  },
+  "message_id": 30,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:19:06.424114+00:00",
+  "updated_at": "2026-09-12T04:19:06.424162+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Sure thing, Anil. To cancel the right slot, I just need the name of the doctor you’re booked with (e.g., “Dr. Singh” or “Dr. Patel”). Once I have that, I’ll cancel the appointment and send you a confirmation."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 1609,
+        "outputTokens": 176,
+        "totalTokens": 1785
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1055
+      }
+    },
+    "tracking_id": "71916333-2552-41fc-87b0-0f71fce74857"
+  },
+  "message_id": 26,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:14:19.455704+00:00",
+  "updated_at": "2026-09-12T04:14:19.455733+00:00"
+}

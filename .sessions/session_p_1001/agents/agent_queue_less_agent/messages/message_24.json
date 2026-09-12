@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’ve confirmed that your account (P‑1001) is set up for a **morning visit**, and your appointment is currently marked “scheduled.”  \nTo give you the exact date, time, and doctor, I need one of the following:\n\n* **The doctor’s name** you’re booked with (e.g., “Dr. Singh,” “Dr. Patel,” etc.)  \n* **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll pull up the full slot details for you. Thanks for your help!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 1464,
+        "outputTokens": 320,
+        "totalTokens": 1784
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2808
+      }
+    },
+    "tracking_id": "77ac5bcd-56ef-4f18-b54c-4fcf818fb6c1"
+  },
+  "message_id": 24,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:14:02.772110+00:00",
+  "updated_at": "2026-09-12T04:14:02.772143+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to cancel your appointment for you.  \nCould you please let me know the name of the doctor you’re scheduled with (e.g., “Dr. Singh,” “Dr. Patel,” etc.)?  \nOnce I have that, I’ll process the cancellation and send you a confirmation."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 1876,
+        "outputTokens": 145,
+        "totalTokens": 2021
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 871
+      }
+    },
+    "tracking_id": "d5d2ee75-a012-4e01-a4ad-4e46f41ef062"
+  },
+  "message_id": 32,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:19:27.686498+00:00",
+  "updated_at": "2026-09-12T04:19:27.686543+00:00"
+}

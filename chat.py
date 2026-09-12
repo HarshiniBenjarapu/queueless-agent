@@ -1,8 +1,17 @@
 
 import sys
 import warnings
+import logging
 
 warnings.filterwarnings("ignore")
+
+# Drop the provider-side logger warning that is emitted when
+# persisted reasoningContent / reasoningText content blocks are inspected
+# by the installed strands.models.openai formatter during multi-turn
+# request assembly. This lives above the Strands/OpenAI import path.
+logging.getLogger("strands.models.openai").setLevel(logging.CRITICAL + 10)
+logging.getLogger("strands.models.openai").propagate = False
+logging.getLogger("strands.models.openai").disabled = True
 
 
 def _suppress_httpcore2_async_cleanup(unraisable):
