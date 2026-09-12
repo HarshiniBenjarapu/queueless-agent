@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to fetch the exact slot for you, but I’ll need a bit more information:\n\n- **The doctor you’re scheduled to see** (e.g., Dr. Singh, Dr. Patel, …), **or**\n- **Your appointment ID** (the 6‑ or 7‑digit code that was sent to you when you booked).\n\nOnce I have that, I’ll pull up the date, time, and any other relevant details. If you don’t remember the doctor or the ID, let me know and I’ll check what’s available for you under your patient ID (P‑1001)."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 953,
+        "outputTokens": 254,
+        "totalTokens": 1207
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2589
+      }
+    },
+    "tracking_id": "f36c671a-a112-4102-8698-a50a3260a30c"
+  },
+  "message_id": 16,
+  "redact_message": null,
+  "created_at": "2026-09-12T03:42:06.604485+00:00",
+  "updated_at": "2026-09-12T03:42:06.604516+00:00"
+}

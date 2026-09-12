@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’d love to give you the exact date and time, but I need a little more information. Could you let me know:\n\n* **The doctor you’re scheduled with** (e.g., Dr. Singh, Dr. Patel, …), **or**  \n* **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I can pull up the full appointment slot for you. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 1108,
+        "outputTokens": 248,
+        "totalTokens": 1356,
+        "cacheReadInputTokens": 512
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2491
+      }
+    },
+    "tracking_id": "3ad4c61d-41a4-44db-99f7-222515d4b09d"
+  },
+  "message_id": 18,
+  "redact_message": null,
+  "created_at": "2026-09-12T03:52:48.005409+00:00",
+  "updated_at": "2026-09-12T03:52:48.005449+00:00"
+}

@@ -3,13 +3,6 @@
     "role": "assistant",
     "content": [
       {
-        "reasoningContent": {
-          "reasoningText": {
-            "text": "User repeats question: \"What was my name and preferred appointment time again?\" We have that. We should respond with name and time."
-          }
-        }
-      },
-      {
         "text": "You’re **Anil Kumar**, and you prefer to be seen in the **morning**. Let me know if you need anything else—such as the exact appointment date or a reminder!"
       }
     ],

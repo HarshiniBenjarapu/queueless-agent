@@ -3,6 +3,7 @@ import sys
 import warnings
 
 warnings.filterwarnings("ignore")
+<<<<<<< HEAD
 
 
 def _suppress_httpcore2_async_cleanup(unraisable):
@@ -35,9 +36,50 @@ def _suppress_httpcore2_async_cleanup(unraisable):
 
 
 sys.unraisablehook = _suppress_httpcore2_async_cleanup
+=======
+>>>>>>> 9b2f92c (good flow)
 
+
+def _suppress_httpcore2_async_cleanup(unraisable):
+    """Drop Python 3.14 httpcore2 async-generator shutdown noise.
+
+    A known Python 3.14 + httpcore2 cleanup pattern emits a
+    RuntimeError: generator didn't stop after athrow() and GeneratorExit
+    traces through sys.unraisablehook while an async generator is being
+    closed during response streaming. These reports are cosmetic, so we
+    silence specifically that async cleanup signature and hand off any
+    other unraisable object through the normal interpreter hook.
+    """
+    exc_type = getattr(unraisable, "exc_type", None)
+    exc_value = getattr(unraisable, "exc_value", None)
+    err_msg = getattr(unraisable, "err_msg", "") or ""
+
+    message = ""
+    if exc_type is not None:
+        message += f"{exc_type.__name__}: "
+    if exc_value is not None:
+        message += str(exc_value)
+    if err_msg:
+        message += f" {err_msg}"
+
+    lowered = message.lower()
+    if (
+        "generator didn't stop after athrow" in lowered
+        or "generatorexit" in lowered
+        or "asyncgen" in lowered
+        or "httpcore2" in lowered
+    ):
+        return
+
+    sys.__unraisablehook__(unraisable)
+
+
+sys.unraisablehook = _suppress_httpcore2_async_cleanup
+
+import json
 import os
 import re
+from pathlib import Path
 
 """Interactive multi-turn terminal chat for QueueLess Healthcare Agent using Groq."""
 
@@ -52,6 +94,97 @@ from queueless_tools import (
     cancel_appointment,
     send_patient_notification,
 )
+
+
+def _strip_reasoning_keys(payload):
+    """Recursively remove persisted reasoning keys from a nested payload structure."""
+    if isinstance(payload, dict):
+        cleaned = {}
+        for key, value in payload.items():
+            if key in {"reasoningContent", "reasoning_content", "reasoningText"}:
+                continue
+            cleaned[key] = _strip_reasoning_keys(value)
+        return cleaned
+
+    if isinstance(payload, list):
+        return [_strip_reasoning_keys(item) for item in payload]
+
+    return payload
+
+
+def _sanitize_content_list(blocks):
+    """Return a block list where empty or unsupported reasoning wrappers are dropped."""
+    safe_blocks = []
+    for block in blocks or []:
+        if not isinstance(block, dict):
+            continue
+        if not block:
+            continue
+
+        plain = _strip_reasoning_keys(block)
+        if not plain:
+            continue
+
+        known_keys = {
+            "text",
+            "image",
+            "document",
+            "toolResult",
+            "toolUse",
+            "cachePoint",
+            "guardContent",
+            "citationsContent",
+        }
+        if not any(key in plain for key in known_keys):
+            continue
+
+        if isinstance(plain.get("text"), str) and plain.get("text") == "":
+            continue
+
+        safe_blocks.append(plain)
+
+    return safe_blocks
+
+
+def _sanitize_session_history(session_id):
+    """Rewrite stored agent message files so legacy reasoning blocks never hydrate again."""
+    base = Path(".sessions") / f"session_{session_id}"
+    agent_dir = base / "agents" / "agent_queue_less_agent" / "messages"
+    if not agent_dir.exists():
+        return
+
+    for file_path in agent_dir.glob("message_*.json"):
+        try:
+            data = json.loads(file_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        msg = data.get("message", {})
+        content = msg.get("content")
+        if isinstance(content, list):
+            clean_content = _sanitize_content_list(content)
+            msg["content"] = clean_content
+            data["message"] = msg
+            file_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+class CleanStreamCallbackHandler:
+    """Print only final user-visible text and suppress model reasoning traces."""
+
+    def __call__(self, **kwargs):
+        reasoning_text = kwargs.get("reasoningText", False)
+        if reasoning_text:
+            return
+
+        data = kwargs.get("data", "")
+        if not isinstance(data, str):
+            data = str(data)
+
+        if not data:
+            return
+
+        complete = kwargs.get("complete", False)
+        print(data, end="" if not complete else "\n")
 
 SYSTEM_PROMPT = """You are an intelligent Healthcare Coordination Agent for QueueLess.
 Be empathetic, professional, and efficient. Use available tools to manage clinic 
@@ -79,6 +212,9 @@ def main():
     normalized = normalized.strip("_")
     session_id = normalized
 
+    # Clean any stale multi-turn reasoning blocks out of the stored session files.
+    _sanitize_session_history(session_id)
+
     # Verified Strands API: FileSessionManager(session_id, storage_dir=".sessions")
     session_manager = FileSessionManager(session_id=session_id, storage_dir=".sessions")
 
@@ -95,6 +231,7 @@ def main():
             "api_key": groq_api_key,
         },
         model_id=model_id,
+        stream=False,
     )
 
     agent = Agent(
@@ -109,6 +246,7 @@ def main():
         system_prompt=SYSTEM_PROMPT,
         session_manager=session_manager,
         agent_id=agent_id,
+        callback_handler=CleanStreamCallbackHandler(),
     )
 
     print("🏥 QueueLess Healthcare Agent (Groq Powered Chat)")
