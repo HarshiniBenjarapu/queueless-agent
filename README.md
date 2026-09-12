@@ -20,7 +20,7 @@ QueueLess Agent leverages the core primitives of the AWS Strands SDK to guarante
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ System Architecture 
 
 ```
 
