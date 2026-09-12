@@ -1,0 +1,15 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "i need to cancel my appoinment"
+      }
+    ],
+    "tracking_id": "86fa0bc8-214e-4cd0-8cb0-4a97dc27a314"
+  },
+  "message_id": 45,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:49:56.379381+00:00",
+  "updated_at": "2026-09-12T04:49:56.379442+00:00"
+}

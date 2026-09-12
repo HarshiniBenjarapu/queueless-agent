@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’ve pulled up your profile—Anil Kumar, morning‑time preference, scheduled. To give you the exact date, time, and doctor for your appointment, I just need one more piece of information:\n\n* **The name of the doctor** you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n* Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll fetch the full appointment details for you right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2461,
+        "outputTokens": 359,
+        "totalTokens": 2820
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 8617
+      }
+    },
+    "tracking_id": "4dea62e9-aa14-4b84-82cf-7476ebf46ea6"
+  },
+  "message_id": 105,
+  "redact_message": null,
+  "created_at": "2026-09-12T07:07:54.069128+00:00",
+  "updated_at": "2026-09-12T07:07:54.069289+00:00"
+}

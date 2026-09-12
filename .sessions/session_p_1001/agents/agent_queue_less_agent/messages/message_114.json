@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’ve pulled up your profile (P‑1001):\n\n- **Name:** Anil Kumar  \n- **Preferred time:** Morning  \n- **Status:** Scheduled  \n\nTo find the exact date, time, and doctor for your appointment (or to cancel it), I just need one of the following:\n\n1. **The name of the doctor** you’re booked with (e.g., Dr. Singh, Dr. Patel).  \n2. Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I can retrieve the details or cancel the slot for you. Thank you for your help!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2376,
+        "outputTokens": 417,
+        "totalTokens": 2793
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 7545
+      }
+    },
+    "tracking_id": "4ef2dd8a-84a3-4c7d-b078-1080c67f9689"
+  },
+  "message_id": 114,
+  "redact_message": null,
+  "created_at": "2026-09-12T12:18:09.525465+00:00",
+  "updated_at": "2026-09-12T12:18:09.525590+00:00"
+}

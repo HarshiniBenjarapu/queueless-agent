@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Your preferred appointment time is **morning**. If you need anything else—like rescheduling or canceling—just let me know!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2491,
+        "outputTokens": 61,
+        "totalTokens": 2552,
+        "cacheReadInputTokens": 256
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 6156
+      }
+    },
+    "tracking_id": "3caa6005-aede-46bb-9abf-ec22e0f3219d"
+  },
+  "message_id": 54,
+  "redact_message": null,
+  "created_at": "2026-09-12T05:05:46.105390+00:00",
+  "updated_at": "2026-09-12T05:05:46.105427+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Sure thing! To cancel your appointment, I just need to know which doctor you’re scheduled with (e.g., Dr. Singh, Dr. Patel, etc.). Once you let me know, I’ll take care of the cancellation and send you a confirmation."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2495,
+        "outputTokens": 262,
+        "totalTokens": 2757
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1741
+      }
+    },
+    "tracking_id": "5f58d0b4-76e5-4fea-a3d2-7cd0479843d1"
+  },
+  "message_id": 80,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:17:05.557463+00:00",
+  "updated_at": "2026-09-12T06:17:05.557536+00:00"
+}

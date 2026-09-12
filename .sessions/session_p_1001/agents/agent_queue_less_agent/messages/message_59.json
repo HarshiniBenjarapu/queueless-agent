@@ -1,0 +1,15 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "what was my appointment time again"
+      }
+    ],
+    "tracking_id": "fbcc3022-093d-4619-aa10-1c58dd2c582d"
+  },
+  "message_id": 59,
+  "redact_message": null,
+  "created_at": "2026-09-12T05:18:30.985407+00:00",
+  "updated_at": "2026-09-12T05:18:30.985481+00:00"
+}

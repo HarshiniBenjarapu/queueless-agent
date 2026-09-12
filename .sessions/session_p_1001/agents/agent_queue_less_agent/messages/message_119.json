@@ -1,0 +1,15 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "i need to cancel my appointment"
+      }
+    ],
+    "tracking_id": "6b85024f-468b-46e8-a99d-8f01b80149de"
+  },
+  "message_id": 119,
+  "redact_message": null,
+  "created_at": "2026-09-12T12:21:57.559523+00:00",
+  "updated_at": "2026-09-12T12:21:57.559612+00:00"
+}

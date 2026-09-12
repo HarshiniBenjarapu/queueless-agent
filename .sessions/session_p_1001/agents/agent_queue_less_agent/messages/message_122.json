@@ -1,0 +1,33 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "reasoningContent": {
+          "reasoningText": {
+            "text": "The user: \"what was my preffered appointment time again?\" They are patient p-1001. We previously got details: preference: morning. They have cancelled their appointment? But the question is about preferred appointment time. According to get_patient_details we have \"Preference: morning\". So we should respond that it's morning."
+          }
+        }
+      },
+      {
+        "text": "Your preferred appointment time is **morning**. If you need anything else—like rescheduling or finding a new slot—just let me know!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2399,
+        "outputTokens": 106,
+        "totalTokens": 2505
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 5539
+      }
+    },
+    "tracking_id": "77bc4145-ce69-4f89-9e22-d1489253486f"
+  },
+  "message_id": 122,
+  "redact_message": null,
+  "created_at": "2026-09-12T12:23:59.701955+00:00",
+  "updated_at": "2026-09-12T12:23:59.702005+00:00"
+}

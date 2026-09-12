@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’ve checked our system for your account (P‑1001). Your appointment with Dr. Smith has already been cancelled, so there’s no scheduled slot to show at the moment.\n\nIf you’d like to book a new appointment or need help finding an available time, just let me know—happy to help!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2346,
+        "outputTokens": 267,
+        "totalTokens": 2613
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 6864
+      }
+    },
+    "tracking_id": "cfb2bc25-5313-4a08-9fe2-f06c66e6ac3e"
+  },
+  "message_id": 108,
+  "redact_message": null,
+  "created_at": "2026-09-12T12:15:07.202058+00:00",
+  "updated_at": "2026-09-12T12:15:07.202138+00:00"
+}

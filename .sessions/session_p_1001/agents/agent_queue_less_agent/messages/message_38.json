@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’ve got your account and your preference (morning visit), but I need a little more information to pull up the exact slot. Could you let me know:\n\n- The **doctor’s name** you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), **or**  \n- Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll fetch the full appointment details for you right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2212,
+        "outputTokens": 217,
+        "totalTokens": 2429,
+        "cacheReadInputTokens": 2048
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2963
+      }
+    },
+    "tracking_id": "86d76dc9-1bde-4e80-8d90-6179a41d649a"
+  },
+  "message_id": 38,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:27:45.176586+00:00",
+  "updated_at": "2026-09-12T04:27:45.176617+00:00"
+}

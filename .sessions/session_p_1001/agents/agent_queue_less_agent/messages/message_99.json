@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m ready to pull up the exact date, time, and doctor for your appointment—but I need one more detail to locate the correct slot in our system.\n\nCould you let me know either:\n\n- **The name of the doctor** you’re scheduled with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n- Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll fetch your appointment details right away. Thanks for your help!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2398,
+        "outputTokens": 189,
+        "totalTokens": 2587
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 24469
+      }
+    },
+    "tracking_id": "fe4d496e-f344-4973-b4e5-0a8bbb879999"
+  },
+  "message_id": 99,
+  "redact_message": null,
+  "created_at": "2026-09-12T07:02:02.952103+00:00",
+  "updated_at": "2026-09-12T07:02:02.952230+00:00"
+}

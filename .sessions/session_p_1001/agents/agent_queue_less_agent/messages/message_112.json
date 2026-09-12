@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to help cancel your appointment, but I’ll need to know which slot to remove. Could you let me know:\n\n* The **doctor’s name** you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), **or**  \n* Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll cancel the appointment for you right away. Thanks!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2393,
+        "outputTokens": 227,
+        "totalTokens": 2620
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1275
+      }
+    },
+    "tracking_id": "d06955a2-0cba-4893-bdcb-28d645d4098b"
+  },
+  "message_id": 112,
+  "redact_message": null,
+  "created_at": "2026-09-12T12:16:04.880361+00:00",
+  "updated_at": "2026-09-12T12:16:04.880437+00:00"
+}

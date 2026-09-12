@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to pull up your appointment details for you—just need a bit more information to locate the correct slot in our system.\n\nCould you let me know either:\n\n- **The name of the doctor** you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n- Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll retrieve the exact date, time, and any other details. Thank you for your help!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2456,
+        "outputTokens": 201,
+        "totalTokens": 2657
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 5893
+      }
+    },
+    "tracking_id": "305785ab-0b3e-4864-984a-1ffdcfd986b2"
+  },
+  "message_id": 72,
+  "redact_message": null,
+  "created_at": "2026-09-12T05:54:34.609189+00:00",
+  "updated_at": "2026-09-12T05:54:34.609252+00:00"
+}

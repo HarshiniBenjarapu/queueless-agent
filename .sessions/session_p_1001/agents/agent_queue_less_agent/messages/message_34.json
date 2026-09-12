@@ -3,13 +3,6 @@
     "role": "assistant",
     "content": [
       {
-        "reasoningContent": {
-          "reasoningText": {
-            "text": "The user repeatedly asks \"Hi, I'm patient P-1001. Look up my appointment details.\" They want appointment details. The assistant has earlier responded with patient info but not specific appointment date/time. The system is a healthcare coordination agent that can look up patient details, but not appointment details. However, maybe the appointment details are included in patient status: \"Status: scheduled\" but not date/time. The assistant should ask for doctor name or appointment ID. The user is frustrated. The best is to politely ask for doctor name or appointment ID again.\n\nWe need to avoid repeating the same phrase too much. We can be empathetic, mention we need the doctor name. Also note that the patient ID alone is not enough. We should also mention we can cancel appointment.\n\nWe can do: \"I can look up your appointment, but I need the doctor's name or appointment ID.\" Also we can confirm earlier that the user wants to cancel appointment.\n\nBut the user again says \"Hi, I'm patient P-1001. Look up my appointment details.\" So we respond with request for doctor name. Also can mention we have the preference morning and scheduled.\n\nWe should not give new info. Just ask for doctor name.\n\nLet's produce a polite response."
-          }
-        }
-      },
-      {
         "text": "I’m ready to pull up the exact slot for you, but I need a little extra detail to locate the appointment in our system. Could you let me know:\n\n- **The name of the doctor** you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n- **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll retrieve the date, time, and any other relevant details right away. Thank you!"
       }
     ],

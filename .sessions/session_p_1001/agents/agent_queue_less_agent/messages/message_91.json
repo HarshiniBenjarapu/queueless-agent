@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "fc_5631d96e-8164-4754-861e-bfc910a5e91b",
+          "status": "success",
+          "content": [
+            {
+              "text": "Notification sent to patient P-1001: 'Your appointment with Dr. Smith has been cancelled. If you need to reschedule, please let us know.'"
+            }
+          ]
+        }
+      }
+    ],
+    "tracking_id": "3e948c10-3e4f-4b39-a523-8c9fe93b2b29"
+  },
+  "message_id": 91,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:51:52.882129+00:00",
+  "updated_at": "2026-09-12T06:51:52.884628+00:00"
+}

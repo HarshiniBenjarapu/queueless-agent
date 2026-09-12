@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m ready to cancel it for you, but I need a little more detail to make sure I’m cancelling the right slot.\n\nCould you let me know either:\n\n- The **doctor’s name** you’re scheduled with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n- Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll process the cancellation and send you a confirmation."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2391,
+        "outputTokens": 174,
+        "totalTokens": 2565,
+        "cacheReadInputTokens": 2304
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1001
+      }
+    },
+    "tracking_id": "49cb5c2a-a31e-4ced-829f-77780d480665"
+  },
+  "message_id": 42,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:28:56.415455+00:00",
+  "updated_at": "2026-09-12T04:28:56.415488+00:00"
+}

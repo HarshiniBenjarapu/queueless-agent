@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to pull up the details for you—could you let me know:\n\n- The name of the doctor you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n- Your appointment ID (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll retrieve the exact date, time, and any other relevant information for you right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2400,
+        "outputTokens": 407,
+        "totalTokens": 2807,
+        "cacheReadInputTokens": 256
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 8020
+      }
+    },
+    "tracking_id": "06d92088-a745-4c8e-82e8-8e56749ac00c"
+  },
+  "message_id": 94,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:53:45.406392+00:00",
+  "updated_at": "2026-09-12T06:53:45.406465+00:00"
+}

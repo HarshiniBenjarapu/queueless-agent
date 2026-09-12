@@ -1,0 +1,33 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "toolUse": {
+          "toolUseId": "fc_5456dab7-f62f-471f-8ec6-d7f4613cd5e5",
+          "name": "cancel_appointment",
+          "input": {
+            "doctor_name": "Dr. Smith",
+            "patient_id": "P-1001"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2481,
+        "outputTokens": 91,
+        "totalTokens": 2572
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1209
+      }
+    },
+    "tracking_id": "e049e93e-4ab0-4c71-a084-01ce3fa2364e"
+  },
+  "message_id": 88,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:51:51.644631+00:00",
+  "updated_at": "2026-09-12T06:51:51.644682+00:00"
+}

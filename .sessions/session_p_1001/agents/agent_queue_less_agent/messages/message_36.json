@@ -3,13 +3,6 @@
     "role": "assistant",
     "content": [
       {
-        "reasoningContent": {
-          "reasoningText": {
-            "text": "The user wants to cancel their appointment. The user hasn't specified doctor name. We can ask for the doctor name. But perhaps we can also request the appointment ID. We should respond asking for doctor name or appointment ID. According to policy, we should ask for more info."
-          }
-        }
-      },
-      {
         "text": "Sure thing! To cancel the right appointment, could you please let me know:\n\n- **The name of the doctor** you’re booked with (e.g., Dr. Singh, Dr. Patel, etc.), or  \n- **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll take care of the cancellation and send you a confirmation."
       }
     ],

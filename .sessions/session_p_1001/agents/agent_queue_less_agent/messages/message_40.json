@@ -1,0 +1,33 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "toolUse": {
+          "toolUseId": "fc_30e9155d-a1d5-4b35-8741-738c3500fd99",
+          "name": "cancel_appointment",
+          "input": {
+            "doctor_name": "?",
+            "patient_id": "P-1001"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2339,
+        "outputTokens": 94,
+        "totalTokens": 2433
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1086
+      }
+    },
+    "tracking_id": "f504dc5b-48dd-41ce-adb5-5f416e483eea"
+  },
+  "message_id": 40,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:28:55.396732+00:00",
+  "updated_at": "2026-09-12T04:28:55.396766+00:00"
+}

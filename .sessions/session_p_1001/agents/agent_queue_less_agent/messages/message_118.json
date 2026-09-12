@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’ve pulled up your profile (P‑1001), but to show you the exact date, time, and doctor for your appointment I’ll need a little more information. Could you let me know either:\n\n- The **name of the doctor** you’re scheduled with (e.g., Dr. Singh, Dr. Patel, etc.), **or**  \n- Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll retrieve the full appointment details for you right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2390,
+        "outputTokens": 230,
+        "totalTokens": 2620
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 7286
+      }
+    },
+    "tracking_id": "33334d6a-ffe7-4386-9c68-77a4b189c0c2"
+  },
+  "message_id": 118,
+  "redact_message": null,
+  "created_at": "2026-09-12T12:21:22.444512+00:00",
+  "updated_at": "2026-09-12T12:21:22.444685+00:00"
+}

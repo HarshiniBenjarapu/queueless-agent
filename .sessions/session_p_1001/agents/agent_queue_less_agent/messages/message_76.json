@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m ready to cancel your appointment for you—just let me know **which doctor you’re booked with** (e.g., Dr. Singh, Dr. Patel, etc.) or the **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked). Once I have that, I’ll cancel the slot and send you a confirmation. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2502,
+        "outputTokens": 189,
+        "totalTokens": 2691,
+        "cacheReadInputTokens": 256
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1338
+      }
+    },
+    "tracking_id": "730d5e4e-76ed-4d36-a0d1-58b46b871ea0"
+  },
+  "message_id": 76,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:11:21.657510+00:00",
+  "updated_at": "2026-09-12T06:11:21.657580+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m ready to cancel the right slot for you. Could you please let me know:\n\n* **The doctor’s name** you’re scheduled with (e.g., Dr. Singh, Dr. Patel, …), **or**  \n* **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll process the cancellation and send you a confirmation."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2377,
+        "outputTokens": 171,
+        "totalTokens": 2548
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1142
+      }
+    },
+    "tracking_id": "85b949e1-df64-4198-a561-04d82af8748d"
+  },
+  "message_id": 52,
+  "redact_message": null,
+  "created_at": "2026-09-12T05:03:40.702939+00:00",
+  "updated_at": "2026-09-12T05:03:40.703116+00:00"
+}

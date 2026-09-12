@@ -1,0 +1,15 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "text": "what was my preffered appointment time again"
+      }
+    ],
+    "tracking_id": "017a82d7-cb49-4e43-b46f-7eae7b6632c6"
+  },
+  "message_id": 47,
+  "redact_message": null,
+  "created_at": "2026-09-12T04:51:58.011654+00:00",
+  "updated_at": "2026-09-12T04:51:58.011714+00:00"
+}

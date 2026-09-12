@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’d love to give you the exact date, time, and doctor for your appointment, but I’m missing a key detail. Could you let me know:\n\n- **The name of the doctor** you’re scheduled with (e.g., Dr. Singh, Dr. Patel, etc.), **or**  \n- **Your appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll fetch the full appointment details for you right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2514,
+        "outputTokens": 195,
+        "totalTokens": 2709
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 10355
+      }
+    },
+    "tracking_id": "0949d251-59ce-4055-8075-e09d75dfa97f"
+  },
+  "message_id": 74,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:10:49.195453+00:00",
+  "updated_at": "2026-09-12T06:10:49.195568+00:00"
+}

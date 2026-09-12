@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to pull up the exact slot for you, but I’m missing a key detail.  \nCould you let me know:\n\n- **The name of the doctor** you’re scheduled with (e.g., Dr. Singh, Dr. Patel, etc.), **or**  \n- Your **appointment ID** (the 6‑ or 7‑digit code that was sent when you booked).\n\nOnce I have that, I’ll fetch the full appointment details right away. Thank you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2418,
+        "outputTokens": 205,
+        "totalTokens": 2623
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 8419
+      }
+    },
+    "tracking_id": "4fc37979-c5e2-4a49-be99-37a37d785d0f"
+  },
+  "message_id": 66,
+  "redact_message": null,
+  "created_at": "2026-09-12T05:30:34.044671+00:00",
+  "updated_at": "2026-09-12T05:30:34.044728+00:00"
+}

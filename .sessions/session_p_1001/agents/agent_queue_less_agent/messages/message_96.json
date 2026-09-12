@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Sure thing! Just let me know the name of the doctor (or the appointment ID) for the slot you’d like to cancel, and I’ll take care of it right away."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2463,
+        "outputTokens": 326,
+        "totalTokens": 2789
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1388
+      }
+    },
+    "tracking_id": "55794f03-36e8-499e-9252-afd5df6b1be4"
+  },
+  "message_id": 96,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:54:17.676108+00:00",
+  "updated_at": "2026-09-12T06:54:17.676220+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Your preferred appointment time is **morning**.  \nIf you’d like to reschedule or cancel, just let me know the doctor’s name or your appointment ID, and I’ll take care of it for you!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2397,
+        "outputTokens": 319,
+        "totalTokens": 2716,
+        "cacheReadInputTokens": 256
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 10899
+      }
+    },
+    "tracking_id": "76225413-83d7-4af4-bae6-6eeb78e80642"
+  },
+  "message_id": 82,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:19:13.052877+00:00",
+  "updated_at": "2026-09-12T06:19:13.052950+00:00"
+}

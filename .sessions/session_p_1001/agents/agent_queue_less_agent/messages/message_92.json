@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "Your appointment with Dr. Smith has been cancelled. A confirmation message has already been sent to your phone/email. If you’d like to reschedule or need any other assistance, just let me know. Stay well!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 2628,
+        "outputTokens": 73,
+        "totalTokens": 2701
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 1155
+      }
+    },
+    "tracking_id": "79c1c0aa-fc7b-4ebd-92ff-ca019afe4de3"
+  },
+  "message_id": 92,
+  "redact_message": null,
+  "created_at": "2026-09-12T06:51:54.094641+00:00",
+  "updated_at": "2026-09-12T06:51:54.094777+00:00"
+}
