@@ -1,5 +1,41 @@
 {
   "message": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "role": "assistant",
+    "content": [
+      {
+        "reasoningContent": {
+          "reasoningText": {
+            "text": "User repeated same request many times. Likely stuck loop due to not providing doctor name or appointment ID. We could offer to check the clinic calendar for a doctor or ask which doctor. We should also mention we can't find appointment without doctor or ID. Offer to list all scheduled appointments if any."
+          }
+        }
+      },
+      {
+        "text": "I’m happy to help, but I need a little more detail to find the exact slot for you. Can you let me know one of the following?\n\n| What you can provide | How it helps |\n|-----------------------|--------------|\n| **Doctor’s name** (e.g., *Dr. Srinivasa*) | I’ll pull the scheduled appointment for you. |\n| **Appointment ID** (the unique reference number on your confirmation) | I’ll fetch the date, time, and location. |\n| **General request** – “Show me all my upcoming appointments” | I’ll list every scheduled slot you have, so you can pick the one you need. |\n\nIf you’re unsure, just reply with the doctor’s name, and I’ll retrieve your appointment details right away. Let me know!"
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 927,
+        "outputTokens": 235,
+        "totalTokens": 1162,
+        "cacheReadInputTokens": 768
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2688
+      }
+    },
+    "tracking_id": "e86f962d-f684-47ee-8730-babae3aab38e"
+  },
+  "message_id": 15,
+  "redact_message": null,
+  "created_at": "2026-09-12T03:16:08.251956+00:00",
+  "updated_at": "2026-09-12T03:16:08.252047+00:00"
+=======
+>>>>>>> 1089bae
     "role": "user",
     "content": [
       {
@@ -12,4 +48,8 @@
   "redact_message": null,
   "created_at": "2026-09-12T03:42:03.354598+00:00",
   "updated_at": "2026-09-12T03:42:03.354620+00:00"
+<<<<<<< HEAD
+=======
+>>>>>>> 9b2f92c (good flow)
+>>>>>>> 1089bae
 }

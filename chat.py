@@ -4,6 +4,7 @@ import warnings
 import logging
 
 warnings.filterwarnings("ignore")
+<<<<<<< HEAD
 
 # Drop the provider-side logger warning that is emitted when
 # persisted reasoningContent / reasoningText content blocks are inspected
@@ -12,6 +13,43 @@ warnings.filterwarnings("ignore")
 logging.getLogger("strands.models.openai").setLevel(logging.CRITICAL + 10)
 logging.getLogger("strands.models.openai").propagate = False
 logging.getLogger("strands.models.openai").disabled = True
+=======
+<<<<<<< HEAD
+
+
+def _suppress_httpcore2_async_cleanup(unraisable):
+    """Quiet Python 3.14 httpcore2 async generator shutdown noise.
+
+    These cleanup traces are cosmetic: the async generator has already
+    been closed by the transport stack, and the RuntimeError message
+    'generator didn't stop after athrow()' is emitted while tearing down
+    the connection pool. We only suppress the known noisy cases while
+    letting all other unraisable exceptions continue through the normal
+    interpreter unraisable hook.
+    """
+
+    exc_type = getattr(unraisable, "exc_type", None)
+    exc_value = getattr(unraisable, "exc_value", None)
+    err_msg = getattr(unraisable, "err_msg", "") or ""
+
+    message = ""
+    if exc_type is not None:
+        message += f"{exc_type.__name__}: "
+    if exc_value is not None:
+        message += str(exc_value)
+    if err_msg:
+        message += f" {err_msg}"
+
+    if "generator didn't stop after athrow" in message or "asyncgen" in message:
+        return
+
+    sys.__unraisablehook__(unraisable)
+
+
+sys.unraisablehook = _suppress_httpcore2_async_cleanup
+=======
+>>>>>>> 9b2f92c (good flow)
+>>>>>>> 1089bae
 
 
 def _suppress_httpcore2_async_cleanup(unraisable):

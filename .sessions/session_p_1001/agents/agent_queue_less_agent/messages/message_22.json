@@ -3,6 +3,16 @@
     "role": "assistant",
     "content": [
       {
+<<<<<<< HEAD
+=======
+        "reasoningContent": {
+          "reasoningText": {
+            "text": "User repeats request. We can respond politely and say we need doctor or appointment ID to retrieve details. We already gave that. Perhaps we can mention that the system only shows general info. But maybe we can provide generic appointment details? But we don't have them. The user hasn't provided doctor. So we should request doctor name or appointment ID. Provide empathy."
+          }
+        }
+      },
+      {
+>>>>>>> 1089bae
         "text": "I’d love to give you the exact date and time, but I can only pull up the slot once I know which doctor (or the appointment ID) you’re booked with.  \nIf you can share the doctor’s name or that 6‑ or 7‑digit code, I’ll fetch the full details for you right away.  \n\nThank you for your patience!"
       }
     ],
