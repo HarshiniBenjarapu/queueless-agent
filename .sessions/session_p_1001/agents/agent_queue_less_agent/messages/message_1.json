@@ -3,13 +3,6 @@
     "role": "assistant",
     "content": [
       {
-        "reasoningContent": {
-          "reasoningText": {
-            "text": "We need to use get_patient_details tool."
-          }
-        }
-      },
-      {
         "toolUse": {
           "toolUseId": "fc_3d033dd3-8cef-4b5b-b5cb-5bb70bc7ed0e",
           "name": "get_patient_details",

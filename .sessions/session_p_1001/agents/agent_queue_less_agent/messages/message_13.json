@@ -1,0 +1,26 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I’m happy to help! I’ve got your personal details and that you’re scheduled for a morning visit.  \nTo give you the exact date, time, and doctor for your appointment, I’ll need to know:\n\n- **The doctor’s name** you’re seeing, **or**  \n- **Your appointment ID** (if you have it).\n\nOnce I have that, I can pull up the full appointment slot for you."
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 822,
+        "outputTokens": 195,
+        "totalTokens": 1017
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 408
+      }
+    },
+    "tracking_id": "1ccacaa0-bf34-4bb5-8a49-b35580b68a9c"
+  },
+  "message_id": 13,
+  "redact_message": null,
+  "created_at": "2026-09-12T03:25:37.520354+00:00",
+  "updated_at": "2026-09-12T03:25:37.520398+00:00"
+}

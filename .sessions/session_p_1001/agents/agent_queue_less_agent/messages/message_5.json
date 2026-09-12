@@ -3,13 +3,6 @@
     "role": "assistant",
     "content": [
       {
-        "reasoningContent": {
-          "reasoningText": {
-            "text": "We should respond empathetically. Provide name and preference."
-          }
-        }
-      },
-      {
         "text": "You’re **Anil Kumar**, and you prefer to be seen in the **morning**. If you need anything else—like rescheduling or a reminder—just let me know!"
       }
     ],

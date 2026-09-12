@@ -1,0 +1,32 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "toolUse": {
+          "toolUseId": "fc_3350e794-0aa2-49de-a705-db7520707b51",
+          "name": "get_patient_details",
+          "input": {
+            "patient_id": "P-1001"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "usage": {
+        "inputTokens": 760,
+        "outputTokens": 106,
+        "totalTokens": 866
+      },
+      "metrics": {
+        "latencyMs": 0,
+        "timeToFirstByteMs": 2789
+      }
+    },
+    "tracking_id": "eaf714d3-7e30-47b6-82c3-7c03384b50b7"
+  },
+  "message_id": 11,
+  "redact_message": null,
+  "created_at": "2026-09-12T03:25:36.831577+00:00",
+  "updated_at": "2026-09-12T03:25:36.831617+00:00"
+}

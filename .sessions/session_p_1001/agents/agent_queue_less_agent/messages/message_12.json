@@ -1,0 +1,23 @@
+{
+  "message": {
+    "role": "user",
+    "content": [
+      {
+        "toolResult": {
+          "toolUseId": "fc_3350e794-0aa2-49de-a705-db7520707b51",
+          "status": "success",
+          "content": [
+            {
+              "text": "Patient: Anil Kumar\nPhone: +91-9876543210\nEmail: anil.k@email.com\nPreference: morning\nStatus: scheduled"
+            }
+          ]
+        }
+      }
+    ],
+    "tracking_id": "06b8d7b2-c9f5-4e08-ae9d-409f52ba4216"
+  },
+  "message_id": 12,
+  "redact_message": null,
+  "created_at": "2026-09-12T03:25:36.838828+00:00",
+  "updated_at": "2026-09-12T03:25:36.838857+00:00"
+}
